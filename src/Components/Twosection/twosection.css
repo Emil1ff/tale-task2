@@ -1,0 +1,93 @@
+.twosection {
+  position: relative;
+  height: 0px;
+  display: flex;
+  align-items: center;
+  height: 630px;
+  &::before {
+    content: url(https://templatemo.com/templates/templatemo_582_tale_seo_agency/assets/images/services-left.jpg);
+    top: 20px;
+    left: 0;
+    position: absolute;
+    width: 844px;
+    height: 714px;
+    z-index: -1;
+  }
+  &::after {
+    content: url(https://templatemo.com/templates/templatemo_582_tale_seo_agency/assets/images/contact-left.jpg);
+    bottom: -25px;
+    right: 0;
+    transform: scaleX(-1);
+    position: absolute;
+    width: 103px;
+    height: 464px;
+    z-index: -1;
+  }
+  .services {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    margin: 0 auto;
+    .title {
+      width: 50%;
+      margin-bottom: 20px;
+      h2 {
+        color: #2a2a2a;
+        font-size: 30px;
+        text-transform: capitalize;
+        text-decoration: none;
+        margin-bottom: 15px;
+        line-height: 44px;
+        em {
+          color: #5b03e4;
+          font-style: normal;
+        }
+        span {
+          color: #c03afe;
+        }
+      }
+      p {
+        font-size: 17px;
+        line-height: 30px;
+        color: #afafaf;
+      }
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      gap: 30px;
+      .cardd {
+        border: 1px solid #f3d7ff;
+        border-radius: 23px;
+        padding: 30px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        transition: all 0.4s;
+        width: 300px;
+        cursor: pointer;
+        &:hover {
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          h4 {
+            color: #5b03e4;
+          }
+        }
+        h4 {
+          font-size: 20px;
+          color: #2a2a2a;
+          margin-top: 20px;
+          line-height: 30px;
+          transition: all 0.4s;
+        }
+        .icon {
+          img {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
