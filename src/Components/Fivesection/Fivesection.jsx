@@ -1,5 +1,5 @@
 import React from "react";
-import "../Fivesection/fivesection.css";
+import "./fivesection.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationPin } from "react-icons/fa6";
@@ -15,7 +15,9 @@ export const Fivesection = () => {
           ></iframe>
         </div>
         <div className="form">
-        <h2><em>Contact Us</em> &amp; Get In <span>Touch</span></h2>
+          <h2>
+            <em>Contact Us</em> &amp; Get In <span>Touch</span>
+          </h2>
           <form action="">
             <div className="input">
               <input type="text" placeholder="Your Name..." />
@@ -34,11 +36,11 @@ export const Fivesection = () => {
               <span>010-020-0340</span>
             </div>
             <div className="phone">
-            <MdEmail />
+              <MdEmail />
               <span>info@company.com</span>
             </div>
             <div className="phone">
-            <FaLocationPin />
+              <FaLocationPin />
               <span>Sunny Isles Beach, Fl 33160, United States</span>
             </div>
           </div>

@@ -1,18 +1,18 @@
-import React from 'react'
-import { Onesection } from './Onesection/Onesection'
-import { Twosection } from './Twosection/Twosection'
-import { Threesection } from './Threesection/Threesection'
-import { Foursection } from './Foursection/Foursection'
-import { Fivesection } from './Fivesection/Fivesection'
+// import React from "react";
+// import { Onesection } from "./Main/Onesection/Onesection";
+// import { Twosection } from "./Main/Twosection/Twosection";
+// import { Threesection } from "./Main/Threesection/Threesection";
+// import { Foursection } from "./Main/Foursection/Foursection";
+// import { Fivesection } from "./Main/Fivesection/Fivesection";
 
-export const Main = () => {
-  return (
-    <>
-    < Onesection/>
-    < Twosection/>
-    < Threesection/>
-    < Foursection/>
-    < Fivesection/>
-    </>
-  )
-}
+// export const Main = () => {
+//   return (
+//     <>
+//       <Onesection />
+//       <Twosection />
+//       <Threesection />
+//       <Foursection />
+//       <Fivesection />
+//     </>
+//   );
+// };

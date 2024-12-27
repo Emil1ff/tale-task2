@@ -1,0 +1,134 @@
+
+.detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-detail {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .icon-wrapper {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+  }
+  
+  .heart-icon {
+    font-size: 32px;
+    color: #5b03e4;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .heart-icon:hover {
+    color: #c03afe;
+    transform: scale(1.2);
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-content {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .product-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .product-category {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  .product-description {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 5px solid #6610f2;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .product-price {
+    font-size: 26px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    background: linear-gradient(to right, #5b03e4, #c03afe);
+  }
+  
+  .product-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-button {
+    background-color: #5b03e4;
+    color: #fff;
+  }
+  
+  .back-button:hover {
+    background-color: #6610f2;
+    transform: scale(1.05);
+  }
+  
+  .cart-button {
+    background-color: #c03afe;
+    color: #fff;
+  }
+  
+  .cart-button:hover {
+    background-color: #5b03e4;
+    transform: scale(1.05);
+  }
+  
