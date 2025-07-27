@@ -5,7 +5,7 @@ import { Header } from "../../Header/Header";
 import { CiHeart } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 import { Footer } from "../../Footer/Footer";
-import "../Detail/detail.css"
+import "../Detail/Detail.css"
 
 
 
