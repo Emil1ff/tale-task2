@@ -1,5 +1,5 @@
 import React from "react";
-import "./onesection.css";
+import "./Onesection.css";
 
 export const Onesection = () => {
   return (
